@@ -1,0 +1,26 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    instance:
+      hostname: localhost
+
+microservices:
+  enrollment-service:
+    endpoints:
+      endpoint: 
+        uri: http://ENROLLMENT-SERVICE/enrollment
+  payment-service:
+    endpoints:
+      endpoint: 
+        uri: http://PAYMENT-SERVICE/payment
+
+spring:
+  zipkin:
+    base-url: http://localhost:9411
+
+logging:
+  file:
+    path: C:/2021/lms/support/logs
