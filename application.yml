@@ -23,4 +23,4 @@ spring:
 
 logging:
   file:
-    path: /tools/logs
+    path: tools/logs
