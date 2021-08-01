@@ -23,4 +23,4 @@ spring:
 
 logging:
   file:
-    path: C:/2021/core-lms-sample/core-lms/tools/logs
+    path: /tools/logs
