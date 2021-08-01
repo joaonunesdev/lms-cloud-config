@@ -22,4 +22,5 @@ spring:
     base-url: http://localhost:9411
 
 logging:
-  file: C:/2021/core-lms-sample/core-lms/tools/logs/lms.log
+  file:
+    path: C:/2021/core-lms-sample/core-lms/tools/logs
